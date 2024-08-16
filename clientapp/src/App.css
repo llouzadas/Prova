@@ -1,0 +1,223 @@
+/* Estilo geral */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2;
+}
+
+/* Cabeçalho */
+header, .App-header {
+  background-color: #0D47A1;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header nav, .App-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul, .App-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permite a quebra de linha em dispositivos menores */
+}
+
+header nav ul li, .App-header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a, .App-header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a:hover, .App-header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Área principal */
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #0D47A1;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+footer nav ul li {
+  margin-left: 20px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilos específicos para a lista de fretes */
+.freight-list {
+  margin: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.freight-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.freight-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.freight-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header nav, .App-header nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul, .App-header nav ul, footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li, .App-header nav ul li, footer nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    position: relative;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header, .App-header {
+    padding: 10px;
+  }
+
+  header nav ul, .App-header nav ul {
+    padding: 0;
+  }
+
+  header nav ul li, .App-header nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  footer nav ul li a {
+    font-size: 14px;
+}
+}
+
+/* Home.css */
+.home {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  color: #004080;
+}
+
+.card p {
+ color:#555;
+}

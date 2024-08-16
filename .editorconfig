@@ -1,0 +1,13 @@
+[*.cs]
+
+# IDE0005: O uso da diretiva é desnecessário.
+dotnet_diagnostic.IDE0005.severity = none
+
+# IDE0160: Converter para bloquear o namespace com escopo
+csharp_style_namespace_declarations = file_scoped
+
+# IDE0160: Converter para bloquear o namespace com escopo
+csharp_style_namespace_declarations = block_scoped
+
+# IDE0160: Converter para bloquear o namespace com escopo
+csharp_style_namespace_declarations = block_scoped

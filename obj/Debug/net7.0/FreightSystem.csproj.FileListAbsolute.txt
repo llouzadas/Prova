@@ -1,0 +1,6 @@
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.csproj.AssemblyReference.cache
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.AssemblyInfoInputs.cache
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.AssemblyInfo.cs
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.csproj.CoreCompileInputs.cache
+C:\Users\Luciene Louzada\OneDrive\Área de Trabalho\Prova\FreightSystem\obj\Debug\net7.0\FreightSystem.MvcApplicationPartsAssemblyInfo.cache
